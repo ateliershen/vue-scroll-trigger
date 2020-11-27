@@ -4,15 +4,15 @@ Forked from liran319 with added options for elem offsets. Useful when you have e
 ## Install
 
 #### with `yarn` :
-`yarn add vue-scroll-trigger`
+`yarn add @dsgn.tw/vue-scroll-trigger`
 
 #### or with `npm` :
-`npm install vue-scroll-trigger --save`
+`npm install @dsgn.tw/vue-scroll-trigger --save`
 
 ## Usage
 
 ```javascript
-import vueScrollTrigger from 'vue-scroll-trigger'
+import vueScrollTrigger from '@dsgn.tw/vue-scroll-trigger'
 
 Vue.use(vueScrollTrigger, {
   activeClass: 'active' // active is the default triggered className

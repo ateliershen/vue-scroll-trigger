@@ -1,25 +1,22 @@
 {
-  "name": "vue-scroll-trigger",
-  "version": "1.0.2",
-  "description": "A Vue plugin which supervises binding element's scrolling and trigger target elements class",
+  "name": "@dsgn.tw/vue-scroll-trigger",
+  "version": "1.0.1",
+  "description": "This is forked from the original vue-scroll-trigger repo",
   "main": "./src/lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liran319/vue-scroll-trigger.git"
+    "url": "git+https://github.com/ateliershen/vue-scroll-trigger.git"
   },
-  "keywords": [
-    "vue-scroll"
-  ],
-  "author": "liran319@gmail.com",
+  "author": "Atelier <atelier@dsgn.tw> (dsgn.tw)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/liran319/vue-scroll-trigger/issues"
+    "url": "https://github.com/ateliershen/vue-scroll-trigger/issues"
   },
-  "homepage": "https://github.com/liran319/vue-scroll-trigger#readme",
-  "dependencies": {
-    "vue": "^2.6.12"
+  "homepage": "https://github.com/ateliershen/vue-scroll-trigger#readme",
+  "publishConfig": {
+    "access": "public"
   }
 }
