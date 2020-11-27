@@ -2,11 +2,11 @@ const install = function(Vue, options = {}) {
   /**
    * @function inViewport: Verify binding element whether in window viewport
    */
-  const { activeClass = 'active' } = options
+  const { activeClass = 'active', offsetTop = 0, offsetBottom = 0 } = options
   Vue.directive('scroll-trigger', {
     inViewport (el) {
       var rect = el.getBoundingClientRect()
-      return !(rect.bottom < 0 || rect.top > window.innerHeight)
+      return !(rect.bottom < offsetBottom || rect.top > (window.innerHeight - offsetTop))
     },
 
     bind (el, binding) {
